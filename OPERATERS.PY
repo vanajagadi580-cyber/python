@@ -1,0 +1,14 @@
+num1 =int(input("Enter two number:"))
+num2 =int(input("Enter two number:"))
+add_res = num1+num2
+sub_res = num1-num2
+mul_res = num1*num2
+idiv_res = num1/num2
+modiv_res = num1%num2
+fdiv_res = float(num1)/num2
+print(str(num1)+ " + "+str(num2)+"="+str(add_res))
+print(str(num1)+ " - "+str(num2)+"="+str(sub_res))
+print(str(num1)+ " * "+str(num2)+"="+str(mul_res))
+print(str(num1)+ " /"+str(num2)+"="+str(idiv_res)+"(Integer Division)")
+print(str(num1)+ " // "+str(num2)+"="+str(fdiv_res)+"(float Division)")
+print(str(num1)+ " % "+str(num2)+"="+str(add_res)+"(module Division)")
